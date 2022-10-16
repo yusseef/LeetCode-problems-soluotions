@@ -6,4 +6,3 @@ def isPalindrome(x):
             return 'false'
 
 result = isPalindrome(-121)
-print(result)
