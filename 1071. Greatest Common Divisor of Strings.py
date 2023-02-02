@@ -7,7 +7,3 @@ def gcdOfStrings(str1, str2):
     else:
         return ""
 
-str1 = "ABABAB"
-str2 = "ABAB"
-
-print(gcdOfStrings(str1, str2))
