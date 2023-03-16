@@ -1,11 +1,6 @@
 class Solution(object):
     def twoSum(self, nums, target):
-        values = dict()
-        for i, elem in enumerate(nums):
-            x = target - elem
-            if x in values:
-                return [values[x], i]
-            values[elem] = i
-    
-        return []
-        
+        for i in range(len(nums)):
+            for j in range(len(nums)):
+                if nums[i] + nums[j] == target and i != j:
+                    return [i, j]

@@ -1,8 +1,8 @@
-def isPalindrome(x):
-        y = str(x)[::-1]
-        if x == y:
-            return 'true'
-        else:
-            return 'false'
+class Solution:
+    def isPalindrome(self, x: int) -> bool:
+        if x == 0:
+            return True
+        
+        rev = str(x)[::-1]
 
-result = isPalindrome(-121)
+        return True if rev == str(x) else False
