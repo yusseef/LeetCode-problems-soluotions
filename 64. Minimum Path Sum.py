@@ -1,4 +1,4 @@
-class Solution:
+class solution:
     def minPathSum(self, grid: List[List[int]]) -> int:
             
         
